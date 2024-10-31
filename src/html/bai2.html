@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-green-400">
+    <div class="container p-10 bg-yellow-300 m-auto">
+      <h2 class="text-2xl text-center p-10">Bài Tập Tính Tiền Diện</h2>
+      <div class="grid grid-rows-1">
+        <div>
+          <input
+            class="rounded-3xl px-5 py-5"
+            type="text"
+            id="TenNguoiDung"
+            placeholder="Nhập Tên"
+          />
+        </div>
+        <div>
+          <input
+            type="number"
+            class="rounded-3xl px-5 py-5 mt-5"
+            id="Kw"
+            placeholder="Nhập số KW"
+          />
+        </div>
+      </div>
+      <div>
+        <button class="rounded-3xl px-5 py-5 bg-blue-400 mt-5" id="btnTinhTien">
+          Tính Tiền Điện
+        </button>
+      </div>
+      <div id="Result" class="bg-pink-500 mt-5 px-5 py-5">Kết quả</div>
+    </div>
+    <script src="/src/js/TinhTienDien.js"></script>
+  </body>
+</html>
