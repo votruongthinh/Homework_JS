@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <h1 class="text-2xl text-center">Tính Thu Nhập Cá Nhân</h1>
+    <div class="container">
+      <div class="form m-auto">
+        <div>
+          <input
+            id="User"
+            class="rounded-3xl p-4 border border-pink-500"
+            type="text"
+            placeholder="Nhập Tên"
+          />
+        </div>
+        <div>
+          <input
+            id="Salary"
+            class="rounded-3xl p-4 border border-pink-300 mt-5"
+            type="number"
+            placeholder="Nhập Lương Thu Nhập"
+          />
+        </div>
+        <div>
+          <input
+            id="UserDependent"
+            class="rounded-3xl p-4 border border-pink-500 mt-5"
+            type="number"
+            placeholder="Người Phụ Thuộc"
+          />
+        </div>
+      </div>
+      <button
+        id="btnTinh"
+        class="border border-pink-500 rounded-2xl bg-green-400 px-5 px-3 mt-10"
+      >
+        Tính Thuế
+      </button>
+      <div id="Result" class="bg-purple-500 mt-3 px-10 py-5"></div>
+    </div>
+    <script src="/src/js/ThueThuNhap.js"></script>
+  </body>
+</html>
